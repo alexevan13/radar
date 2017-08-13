@@ -46,7 +46,7 @@ public final class RadarDetectObjct
 		}
 		else
 		{
-			_objOpacity -= 0.02;
+			_objOpacity = 0.5f;
 			if(_objOpacity < 0)
 				_objOpacity = 0;
 			_clrObject = new Color(0.0f, GREEN_FIX, 0.0f, _objOpacity);
